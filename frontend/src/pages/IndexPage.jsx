@@ -8,9 +8,7 @@ const IndexPage = () => {
 	useEffect(() => {
 		const fetchLetters = async () => {
 			try {
-				const response = await fetch(
-					"http://localhost:5000/api/letters"
-				);
+				const response = await fetch("/api/letters");
 				if (!response.ok) {
 					throw new Error("Failed to fetch data from the server");
 				}

@@ -11,7 +11,7 @@ const CreatePage = () => {
 		setMessage("");
 
 		try {
-			const response = await fetch("http://localhost:5000/api/letters", {
+			const response = await fetch("/api/letters", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
