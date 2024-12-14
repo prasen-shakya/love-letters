@@ -1,7 +1,4 @@
 import mongoose from "mongoose";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 // Function to connect to the database with try and catch exceptions
 export const connectDB = async () => {
