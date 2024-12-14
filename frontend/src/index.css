@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Baligo";
+	src: url("../static/fonts/Baligodemo-owPyx.otf") format("truetype");
+}
