@@ -29,6 +29,7 @@ const IndexPage = () => {
 			}
 		};
 		fetchLetters();
+		fetchLetters();
 	}, []);
 
 	return (
